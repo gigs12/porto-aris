@@ -2,10 +2,10 @@ import { Fragment } from "react";
 
 export default function Marquee() {
   const items = [
-    { name: "Web Design & Devlopment", },
-    { name: "Design Graphic", },
-    { name: "Gigs Visual Studio",  },
-    { name: "Operator Videotron", },
+      { name: "Web Design & Devlopment", sub: "Gigs Visual Studio" },
+    { name: "Design Graphic", sub: "Desain · Motion · 3D" },
+    { name: "Gigs Visual Studio", sub: "Design Graphic" · "Operator Videotron" },
+    { name: "Operator Videotron", sub: "Resolume Arena · Visual Jockey · Event" },
   ];
   const loop = items.concat(items, items);
   return (
